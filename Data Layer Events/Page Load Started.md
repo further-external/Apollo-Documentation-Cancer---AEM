@@ -21,7 +21,8 @@ dataLayer.push({
         "site_section": "<site_section>",
         "site_section2": "<site_section2>",
         "site_variant": "<site_variant>",
-        "type": "<type>"
+        "type": "<type>",
+        "system_environment": "<system_environment>"
     }
 });
 ```
@@ -42,6 +43,8 @@ dataLayer.push({
 |page_data.site_section2|string|Captures the sub-section of the site where the page being viewed is located|Shop &gt; Kids, Shop &gt; Mens, Shop &gt; Womens|||||||
 |page_data.site_variant|string|Describes the version of the site that is being shown|Responsive, Mobile, Desktop|||||||
 |page_data.type|string|The type of page currently viewed.|home, pdp, article|||||||
+|page_data.system_environment|string|The environment type of the site, is used to distinguish between product and non-production activity.|production, non-production|||||||
+
 
 
 
